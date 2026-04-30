@@ -29,3 +29,9 @@ print(distance_matrix)
 plt.imshow(distance_matrix, cmap='magma')
 plt.colorbar(label='Manhattan Distance')
 plt.show()
+
+
+"""logic : 
+we created two single dimension matrix then made a 2d matrix out of both by using both matrices elements as corrds 
+then striped rows and coloumns while maintaing shape 2x2 by 0 to 100 using as rows and columns ex: [0000000][111111][22222222]...[100100100100100] 
+and made distance matrix of order 2x2 using manhatan formula on these matrices """
